@@ -12,6 +12,7 @@
 		0FB648151A17028300C20E12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB648141A17028300C20E12 /* Images.xcassets */; };
 		0FB648181A17028300C20E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB648161A17028300C20E12 /* Main.storyboard */; };
 		0FB648241A17028300C20E12 /* storyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB648231A17028300C20E12 /* storyTests.swift */; };
+		0FB6482E1A17030700C20E12 /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB6482D1A17030700C20E12 /* SecondController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		0FB6481D1A17028300C20E12 /* storyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = storyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB648221A17028300C20E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FB648231A17028300C20E12 /* storyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyTests.swift; sourceTree = "<group>"; };
+		0FB6482D1A17030700C20E12 /* SecondController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				0FB648141A17028300C20E12 /* Images.xcassets */,
 				0FB648161A17028300C20E12 /* Main.storyboard */,
 				0FB6480E1A17028300C20E12 /* Supporting Files */,
+				0FB6482D1A17030700C20E12 /* SecondController.swift */,
 			);
 			path = story;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FB6482E1A17030700C20E12 /* SecondController.swift in Sources */,
 				0FB648131A17028300C20E12 /* ViewController.swift in Sources */,
 				0FB648111A17028300C20E12 /* AppDelegate.swift in Sources */,
 			);
@@ -397,6 +401,7 @@
 				0FB648291A17028300C20E12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FB6482A1A17028300C20E12 /* Build configuration list for PBXNativeTarget "storyTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				0FB6482C1A17028300C20E12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

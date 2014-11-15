@@ -10,6 +10,8 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var well: NSColorWell!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +24,10 @@ class ViewController: NSViewController {
         }
     }
 
+    override func prepareForSegue(segue: NSStoryboardSegue, sender: AnyObject?) {
+        let subController = segue.destinationController as SecondController
+        subController.representedObject = well.color
+    }
 
 }
 
